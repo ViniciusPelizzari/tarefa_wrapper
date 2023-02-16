@@ -17,7 +17,7 @@ public class Exp {
         int num1 = num.nextInt();
         // imprimindo dado inteiro
         System.out.println("Inteiro: " + num1);
-        // casting e unboxing
+        // casting e unboxing - WRAPPER     
         float num2 = Integer.valueOf(num1);
         // imprimindo dado float
         System.out.print("Float: " + num2);
